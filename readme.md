@@ -17,6 +17,6 @@ The face is definitely a clear section along with the ears, the details would be
 
 5. How could you use a loop variable of a for loop? Is there somewhere in your drawing where something is repeated, but it's slightly different each time? Maybe the same object is repeated in different places, or maybe a similar object is repeated but with different sizes?
 
-I really don't think there is much opportunity for loops in my sketch, if this is a problem, I can try and do a different proposal entirely but for now, there is mostly two of each detail so I could create functions for the details to make it look a lot nicer like, drawEar, 
+I really don't think there is much opportunity for loops in my sketch, if this is a problem, I can try and do a different proposal entirely but for now, there is mostly two of each detail so I could create functions for the details to make it look a lot nicer like, drawEar, or drawEye, or etc
 
 ![](sketch.jpeg)
