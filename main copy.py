@@ -44,8 +44,10 @@ for i in range(2):
 forward(10)
 circle(5, 60)
 end_fill()
-draweye(1)
-draweye(-1)
+drawEye = True
+if(drawEye):
+	draweye(1)
+	draweye(-1)
 drawear(1)
 drawear(-1)
 sideface(1)
