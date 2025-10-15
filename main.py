@@ -1,5 +1,11 @@
 from turtle import *
+import numpy as np
+speed(0)
 
+def drawarc(size, angle):
+    for i in range(size):
+        forward(50)
+        left(angle*90/8)
 def drawEye():
     begin_fill()
     circle(30)
@@ -12,11 +18,14 @@ drawEye()
 penup()
 setposition(425, 200)
 pendown()
-left(90)
+setheading(90)
 circle(250, 180)
-
-for i in range(4):
-    forward(10)
-    right(90/4)
-
+right(60)
+drawarc(17, 1)
+penup()
+setposition(425, 200)
+setheading(-30)
+pendown()
+drawarc(17, -1)
+print(position())
 exitonclick()
