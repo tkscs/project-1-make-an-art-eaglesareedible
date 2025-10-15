@@ -1,6 +1,7 @@
 from turtle import *
 import numpy as np
 speed(0)
+
 def sideface(b):
     penup()
     setposition(0, 100)
@@ -44,10 +45,16 @@ for i in range(2):
 forward(10)
 circle(5, 60)
 end_fill()
-draweye(1)
-draweye(-1)
-drawear(1)
-drawear(-1)
+drawEye = True
+#Set to True or False
+if(drawEye):
+	draweye(1)
+	draweye(-1)
+drawEar = True
+#Set to True or False
+if(drawEar):
+    drawear(1)
+    drawear(-1)
 sideface(1)
 circle(50, 165)
 setheading(-90)
