@@ -1,4 +1,4 @@
-Overall Final Draft Score: 30 / 30
+Overall Final Draft Score: 28 / 30
 
 * [ 10 / 10 ] Working code
 
